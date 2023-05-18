@@ -1,0 +1,84 @@
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 30px 0 30px;
+}
+
+.top > * {
+    cursor: pointer;
+}
+
+.top h1 {
+    font-size: 24px;
+}
+
+.close path {
+    transition: stroke 0.4s;
+}
+
+.close:hover path {
+    stroke: #a8a8a8;
+}
+
+.login-container {
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.login-container h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 3px 0 3px 10px;
+    border-radius: 10px;
+
+    background-color: #242424;
+}
+
+
+
+.validation-button {
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #21a4f7;
+}
+
+.login-container > a {
+    display: flex;
+    justify-content: end;
+}
+
+.login-container p {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-left: 172px;
+
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

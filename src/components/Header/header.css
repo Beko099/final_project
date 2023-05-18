@@ -1,0 +1,162 @@
+* {
+    font-size: 16px;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    width: 100%;
+    background-color: #141414;
+    z-index: 2;
+
+}
+
+.home { 
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+    gap: 30px;
+    margin-top: 8px;
+
+}
+
+.home > .left-side h1 {
+    color: #a8a8a8;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: color 0.45s;
+}
+
+.home > .left-side h1:hover {
+    color: white;
+}
+
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.catalog {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.catalog > * {
+    color: white;
+    transition: color 0.45s;
+    padding-bottom: 10px;
+}
+
+.catalog > *:hover {
+    color: #21a4f7;
+}
+
+.catalog > *.active {
+    color: white;
+    border-bottom: 2px solid #21a4f7;
+}
+
+.catalog > input {
+    height: 30px;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    width: 90px;
+}
+
+.catalog > input:hover {
+    color: white;
+}
+
+
+
+
+.profile {
+    /* background-image: url(../../assets/profile.png); */
+
+    /* width: 50px;
+    height: 50px; */
+
+    /* background-color: white; */
+    /* background-size: cover; */
+}
+
+/* .account {
+
+} */
+
+.button-account {
+    background-color: hsla(0,0%,100%,.05);
+    width: 75px;
+    height: 40px;
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.4s ;
+}
+
+.button-account:hover {
+    background-color: hsla(0,0%,100%,.12);
+}
+
+/* -------------------lOGO---------------------- */
+
+.burger {
+    margin-top: 2px;
+}
+
+.logo path {
+    fill: rgba(120,120,120,.4);
+    height: 34px;
+    width: 34px;
+    cursor: pointer;
+
+    transition: fill 0.45s;
+}
+
+.logo:hover path {
+    fill: aliceblue;
+}
+
+
+
+.lupa {
+    height: 0px;
+    cursor: pointer;
+}
+
+.lupa path {
+    transition: fill 0.45s;
+}
+
+.lupa:hover path {
+    fill: white;
+}
+
+/* ---------------------------------------------- */
+
+.link {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+
+.container-profile p {
+    cursor: pointer;
+}
+

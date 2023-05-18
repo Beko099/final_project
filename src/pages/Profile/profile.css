@@ -1,0 +1,58 @@
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.block-profile {
+    width: 70%;
+    height: 500px;
+
+    background-color: rgb(24, 46, 24);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    padding: 30px 0 0 0;
+
+
+}
+
+.profile .profile-logo svg {
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+}
+
+.block-profile > input {
+    width: 40%;
+    height: 20px;
+    padding: 10px;
+
+    margin-top: 50px;
+
+}
+
+.nickname-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.nickname-container > h1 {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.nickname-container > button {
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+
+    background-color: black;
+
+}
